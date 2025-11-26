@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning programming </title>
+    <link rel="stylesheet" href="style of project.css">
+    <link rel="stylesheet" href="login javascript.js">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class=" fas fa-laptop-code">
+                    <span>
+                        Study programming 
+                    </span>
+                </div>
+                <ul class="nav-links">
+                <li><a href="مشروع 44.html" class="nav-links active " data-target="home"> Main</a></li>
+                <li><a href="#" class="nav-links" data-target="languages">Languages</a></li>
+                <li><a href="#" class="nav-links" data-target="examples"> Examples</a></li>
+                <li><a href="login page.html" class="nav-links" data-target="login">Login</a></li>
+                </ul>
+                <div class="auth-buttons">
+                  <button class="btn btn-outline" id="showLogin">Login</button>
+                  <button class="btn btn-primary" id="showSignup">Create account</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- login branch -->
+      <section class="login-section" id="loginSection">
+        <div class="login-container">
+            <div class="login-header">
+                <h2>Wellcom again</h2>
+                <p> Login to continuo learning programming</p>
+            </div>
+             <div class="login-body">
+                  <form id="loginForm">
+                    <div class="form-group">
+                         <label for="email"> Email </label>
+                         <div class="input-with-icon">
+                            <i class=" fas fa-envelope"></i>
+                             <input type="email" id="email" class="form-control" placeholder="Enter your email" >
+                         </div>
+                        
+                    </div>
+                     <div class="form-group">
+                        <label for="password"> Password </label>
+                        <div class="input-with-icon">
+                            <i class="fas fa-envelope"></i>
+                            <input type="password" class="form-control" placeholder="Enter the password" >
+                        </div>
+                     </div>
+                      <div class="options">
+                        <div class="remember-me">
+                              <input type="checkbox" id="remember">
+                              <label for="remember"> Remember Me </label>
+                        </div>
+                          <a href="#" class="forgot-password">Forget password</a>
+                      </div>
+                      <button type="submit" class="btn-login">Login</button>
+                  </form>
+                  <div class="divider">Login using </div>
+                
+                <div class="social-login">
+                    <a href="#" class="social-btn facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-btn twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-btn google">
+                        <i class="fab fa-google"></i>
+                    </a>
+                </div>
+                
+                <div class="signup-link">
+                    You don't have account<a href="#" id="switchToSignup">Create a new account  </a>
+                </div>
+            </div>
+             </div>
+        </div>
+      </section>
+</body>
+</html>
